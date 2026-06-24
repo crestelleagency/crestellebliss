@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Your Invitation | CrestelleBliss</title>
+  <meta name="description" content="Start your CrestelleBliss digital wedding invitation order.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="CrestelleBliss home"><img src="img/logo.png" alt="CrestelleBliss logo"></a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="templates.html">Templates</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="index.html#faq">FAQ</a>
+    </nav>
+    <a class="header-cta" href="create.html">Create Invite</a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Create Your Invitation</p>
+      <h1>Share Your Wedding Details</h1>
+      <p>Fill the details below and our team will prepare your premium digital invitation webpage.</p>
+    </section>
+
+    <section class="form-section">
+      <form class="page-form" data-success="Your invitation request has been saved. We will contact you soon.">
+        <div class="form-grid">
+          <label>Couple Names<input name="names" type="text" placeholder="Aarav & Meera" required></label>
+          <label>Wedding Date<input name="date" type="date" required></label>
+          <label>Preferred Template
+            <select name="template" required>
+              <option value="">Select template</option>
+              <option>Midnight Crest</option>
+              <option>Royal Elegance</option>
+              <option>Modern Minimal</option>
+              <option>Bliss Garden</option>
+              <option>Crystal Vows</option>
+              <option>Classic Pearl</option>
+            </select>
+          </label>
+          <label>Mobile Number<input name="phone" type="tel" placeholder="+91 98765 43210" required></label>
+          <label>Email Address<input name="email" type="email" placeholder="you@example.com" required></label>
+          <label>Venue City<input name="city" type="text" placeholder="Mumbai" required></label>
+        </div>
+        <label>Event Details<textarea name="message" rows="6" placeholder="Venue, timings, rituals, dress code, music preference, and any special notes"></textarea></label>
+        <button class="btn btn-primary" type="submit">Submit Invitation Request</button>
+        <p class="form-message" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <img src="img/logo.png" alt="CrestelleBliss logo">
+    <nav aria-label="Footer navigation">
+      <a href="templates.html">Templates</a>
+      <a href="create.html">Create Your Invitation</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="terms.html">Terms</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="refund.html">Refund Policy</a>
+    </nav>
+    <p>© 2026 CrestelleBliss. Elegance in every detail.</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
