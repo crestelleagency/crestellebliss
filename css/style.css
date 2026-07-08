@@ -398,7 +398,7 @@ h3 {
 .comparison,
 .testimonials,
 .cta-section {
-  padding: clamp(64px, 9vw, 118px) clamp(18px, 5vw, 72px);
+  padding: 70px;
 }
 
 .section-heading {
